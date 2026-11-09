@@ -1,0 +1,36 @@
+{
+  "audio": "audio.wav",
+  "out": "character_talking.mov",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "background": "transparent",
+  "poses": {
+    "1": {
+      "image": "pose1.png",
+      "lips": [[505, 549], [650, 534]],
+      "curve": [534.9, -0.1073, 0.00169]
+    },
+    "2": {
+      "image": "pose2.png",
+      "lips": [[640, 520], [785, 505]],
+      "curve": [504.4, -0.0909, 0.00201]
+    }
+  },
+  "schedule": [
+    [0.0, "1"],
+    [5.15, "2"],
+    [10.9, "1"]
+  ],
+  "character": {
+    "scale": 0.57,
+    "anchor": "bottom-right",
+    "offset": [80, 40]
+  },
+  "hmax_ratio": 0.186,
+  "levels": 9,
+  "threshold": 0.12,
+  "gate_db": -40.0,
+  "bob": true,
+  "pop": true
+}

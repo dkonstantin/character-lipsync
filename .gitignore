@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.DS_Store
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Output directories & frames
+*_frames/
+*.mp4
+*.mov
+*.wav
+
+# Calibrate/test artifacts
+grid*.png
+check*.png
+env*.json
+
+# IDE & editors
+.vscode/
+.idea/
